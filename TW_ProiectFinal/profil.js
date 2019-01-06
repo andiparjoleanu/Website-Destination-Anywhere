@@ -287,6 +287,10 @@ fetch('http://localhost:3000/destinatii').then(
 
         response.json().then(function (data) { 
             var myTrips = document.getElementById("myTrips");
+            while(myTrips.firstChild)
+            {
+                myTrips.removeChild(myTrips.firstChild);
+            }
             myTrips.style.padding = "0% 8% 8% 8%";
             myTrips.classList.add("cityDetails");
             var reserved = document.createElement("div");
