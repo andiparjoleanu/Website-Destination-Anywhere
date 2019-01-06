@@ -1,10 +1,13 @@
 var slideshow = document.getElementById("slideshow");
+while(slideshow.firstChild)
+    slideshow.removeChild(slideshow.firstChild);
 var backgroundImg = [];
 var allCountries = null;
 
 //creeaza containerul pentru lista de destinatii (versiunea de mobil)
 var mobileContent = document.getElementById("mobileContent");
-
+while(mobileContent.firstChild)
+    mobileContent.removeChild(mobileContent.firstChild);
 var countriesList = document.createElement("ul");
 countriesList.classList.add("countriesList");
 mobileContent.appendChild(countriesList);
@@ -12,6 +15,8 @@ mobileContent.appendChild(countriesList);
 //creeaza harta interactiva
 
 var worldMap = document.getElementById("worldMap");
+while(worldMap.firstChild)
+    worldMap.removeChild(worldMap.firstChild);
 worldMap.style.position = "relative";
 
 var worldMapFigure = document.createElement("img");
@@ -24,7 +29,12 @@ var worldMapGrid = document.createElement("div");
 worldMapGrid.classList.add("mapGrid");
 worldMap.appendChild(worldMapGrid);
 
+var cd = document.getElementById("chooseDestination");
+cd.removeChild(document.getElementById("exh"));
+
 var chosenItem = document.getElementById("chosenItem");
+while(chosenItem.firstChild)
+    chosenItem.removeChild(chosenItem.firstChild);
 chosenItem.classList.add("chosenItem");
 var chosenItemParagraph = document.createElement("p");
 chosenItem.appendChild(chosenItemParagraph);
