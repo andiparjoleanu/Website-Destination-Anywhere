@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Destination Anywhere: Profilul Meu</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="websiteStyles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="pageContentContainer">
+        <div id="pageContent" class="pageContent">
+            <form id="profileForm">
+                <div id="profileDetails" class="profileDetails">
+                    <div id="photo" class="profilePhoto responsiveBackground"></div>
+                    <div id="details" class="otherDetails"></div>
+                </div>
+                <div id="controlPanel" class="profileDetails">
+                    <button id="edit" type="button">Editează informațiile</button>
+                    <button id="submitButton" type="submit">Salvează modificările</button>
+                    <button id="logout" type="button">Logout</button>
+                </div>
+                <input id="photoName" type="file"/>
+            </form>
+            <section id="myTrips"></section>
+        </div>
+    </div>
+    <nav class="menu">
+        <div class="mobileMenu">
+            <div class="logo">
+                <img src="./data/logo.png" class="responsiveImg"/>
+            </div>
+            <div class="icon">&#9776;</div>
+        </div>
+        <div class="links">
+            <a href="home.html">Acasă</a>
+            <a href="destinatii.html" id="pgDestinatii">Destinații</a>
+            <a href="profil.html" class="active">Profilul Meu</a>
+        </div>       
+    </nav>
+    <script src="prevent.js"></script>
+    <script src="forceLogin.js"></script>
+    <script src="menu.js"></script>
+    <script src="profil.js"></script>
+</body>
+</html>

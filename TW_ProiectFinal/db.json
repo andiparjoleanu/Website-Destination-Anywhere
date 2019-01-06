@@ -1,0 +1,501 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nume": "Pârjoleanu",
+      "prenume": "Andi",
+      "utilizator": "pandi",
+      "parola": "pandi",
+      "email": "andiparjoleanu1@gmail.com",
+      "rezervari": [
+        1,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ],
+      "poza": "./data/amazoniaSlideshow.jpg"
+    },
+    {
+      "id": 2,
+      "nume": "Vasile",
+      "prenume": "Clara",
+      "utilizator": "vclara",
+      "parola": "vclara",
+      "email": "claragabrielav@gmail.com",
+      "rezervari": [
+        1,
+        3
+      ],
+      "poza": "./data/star.jpg"
+    },
+    {
+      "nume": "Căluian",
+      "prenume": "Ana",
+      "utilizator": "cana",
+      "parola": "cana",
+      "email": "anacaluian@gmail.com",
+      "rezervari": [],
+      "id": 3,
+      "poza": ""
+    },
+    {
+      "nume": "Mesteacăn",
+      "prenume": "Ștefan",
+      "utilizator": "mstefan",
+      "parola": "mstefan",
+      "email": "stefanmesteacan@gmail.com",
+      "rezervari": [],
+      "id": 4,
+      "poza": ""
+    },
+    {
+      "id": 5,
+      "nume": "Rotariu",
+      "prenume": "Maria",
+      "utilizator": "rmaria",
+      "parola": "rmaria",
+      "email": "mariarotariu@gmail.com",
+      "rezervari": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "poza": "./data/maria.jpg"
+    }
+  ],
+  "destinatii": [
+    {
+      "id": 1,
+      "denumire": "Australia",
+      "gridRows": "16",
+      "gridColumns": "16",
+      "mapX": "51",
+      "mapY": "16",
+      "fundal": "./data/australiaWall.jpg",
+      "culoareTitlu": [
+        30,
+        120,
+        30
+      ],
+      "pret": "1000$",
+      "data": "03/12/2019",
+      "locuriDisponibile": 12,
+      "orase": [
+        {
+          "denumire": "Perth",
+          "mapX": "2",
+          "mapY": "11",
+          "zileCazare": "3",
+          "hotel": {
+            "denumire": "Crown Towers",
+            "stele": 5,
+            "foto": "./data/australiaPerthHotel.jpg",
+            "link": "https://www.booking.com/hotel/au/crown-towers-perth.ro.html"
+          }
+        },
+        {
+          "denumire": "Sydney",
+          "mapX": "15",
+          "mapY": "12",
+          "zileCazare": "5",
+          "hotel": {
+            "denumire": "Primus Hotel",
+            "stele": 5,
+            "foto": "./data/australiaSydneyHotel.jpg",
+            "link": "https://www.booking.com/hotel/au/primus-sydney.ro.html"
+          }
+        },
+        {
+          "denumire": "Melbourne",
+          "mapX": "13",
+          "mapY": "13",
+          "zileCazare": "3",
+          "hotel": {
+            "denumire": "Peppers Docklands",
+            "stele": 4,
+            "foto": "./data/australiaMelbourneHotel.jpg",
+            "link": "https://www.booking.com/hotel/au/peppers-docklands.ro.html"
+          }
+        }
+      ],
+      "map": "./data/australiaMap.jpg"
+    },
+    {
+      "id": 5,
+      "denumire": "Brazilia",
+      "gridRows": "18",
+      "gridColumns": "18",
+      "mapX": "17",
+      "mapY": "13",
+      "fundal": "./data/brazilWall.jpg",
+      "culoareTitlu": [
+        54,
+        88,
+        0
+      ],
+      "pret": "1500$",
+      "data": "10/03/2019",
+      "locuriDisponibile": 0,
+      "orase": [
+        {
+          "denumire": "Rio de Janeiro",
+          "mapX": "14",
+          "mapY": "13",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Hotel Atlantico Prime",
+            "stele": 4,
+            "foto": "./data/braziliaRioHotel.jpg",
+            "link": "https://www.booking.com/hotel/br/slaviero-lifestyle-rio-de-janeiro.ro.html"
+          }
+        },
+        {
+          "denumire": "Brasilia",
+          "mapX": "12",
+          "mapY": "9",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Hotel Nacional",
+            "stele": 4,
+            "foto": "./data/braziliaBrasilHotel.jpg",
+            "link": "https://www.booking.com/hotel/br/nacional-brasilia.ro.html"
+          }
+        },
+        {
+          "denumire": "Amazonia",
+          "mapX": "7",
+          "mapY": "4",
+          "zileCazare": "4",
+          "hotel": {
+            "denumire": "Intercity Manaus",
+            "stele": 4,
+            "foto": "./data/braziliaAmazoniaHotel.jpg",
+            "link": "https://www.booking.com/hotel/br/intercity-premium-manaus.ro.html"
+          }
+        }
+      ],
+      "map": "./data/brazilMap.jpg"
+    },
+    {
+      "id": 6,
+      "denumire": "Tanzania",
+      "gridRows": "16",
+      "gridColumns": "16",
+      "mapX": "34",
+      "mapY": "13",
+      "fundal": "./data/tanzaniaWall.jpg",
+      "culoareTitlu": [
+        195,
+        135,
+        10
+      ],
+      "pret": "900$",
+      "data": "11/04/2019",
+      "locuriDisponibile": 1,
+      "orase": [
+        {
+          "denumire": "Dodoma",
+          "mapX": "9",
+          "mapY": "9",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Morena Hotel",
+            "stele": 4,
+            "foto": "./data/tanzaniaDodomaHotel.jpg",
+            "link": "https://www.tripadvisor.com"
+          }
+        },
+        {
+          "denumire": "Zanzibar",
+          "mapX": "13",
+          "mapY": "8",
+          "zileCazare": "3",
+          "hotel": {
+            "denumire": "Z Hotel",
+            "stele": 4,
+            "foto": "./data/tanzaniaZanzibarHotel.jpg",
+            "link": "https://www.booking.com/hotel/tz/z.ro.html"
+          }
+        }
+      ],
+      "map": "./data/tanzaniaMap.jpg"
+    },
+    {
+      "id": 2,
+      "denumire": "Statele Unite Ale Americii",
+      "gridRows": "16",
+      "gridColumns": "16",
+      "mapX": "12",
+      "mapY": "6",
+      "fundal": "./data/americaWall.jpg",
+      "culoareTitlu": [
+        155,
+        0,
+        0
+      ],
+      "pret": "1500$",
+      "data": "03/02/2020",
+      "locuriDisponibile": 1,
+      "orase": [
+        {
+          "denumire": "New York",
+          "mapX": "15",
+          "mapY": "6",
+          "zileCazare": "3",
+          "hotel": {
+            "denumire": "LUMA Hotel - Times Square",
+            "stele": 4,
+            "foto": "./data/americaNewYorkHotel.jpg",
+            "link": "https://www.booking.com/hotel/us/luma-times-square.ro.html"
+          }
+        },
+        {
+          "denumire": "Miami",
+          "mapX": "14",
+          "mapY": "13",
+          "zileCazare": "3",
+          "hotel": {
+            "denumire": "Kimpton EPIC Hotel",
+            "stele": 5,
+            "foto": "./data/americaMiamiHotel.jpg",
+            "link": "https://www.booking.com/hotel/us"
+          }
+        },
+        {
+          "denumire": "Las Vegas",
+          "mapX": "3",
+          "mapY": "10",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Marriott's Grand Chateau",
+            "stele": 4,
+            "foto": "./data/americaLasVegasHotel.jpg",
+            "link": "https://www.booking.com/hotel/us/marriott-s-grand-chateau-1-las-vegas.ro.html"
+          }
+        },
+        {
+          "denumire": "Los Angeles",
+          "mapX": "2",
+          "mapY": "11",
+          "zileCazare": "4",
+          "hotel": {
+            "denumire": "LEVEL Furnished Living",
+            "stele": 4,
+            "foto": "./data/americaLosAngelesHotel.jpg",
+            "link": "https://www.booking.com/hotel/us/level-furnished-living.ro.html"
+          }
+        }
+      ],
+      "map": "./data/americaMap.jpg"
+    },
+    {
+      "id": 3,
+      "denumire": "Franța",
+      "gridRows": "16",
+      "gridColumns": "16",
+      "mapX": "28",
+      "mapY": "5",
+      "fundal": "./data/franceWall.jpg",
+      "culoareTitlu": [
+        90,
+        80,
+        200
+      ],
+      "pret": "1100$",
+      "data": "10/02/2019",
+      "locuriDisponibile": 0,
+      "orase": [
+        {
+          "denumire": "Lyon",
+          "mapX": "11",
+          "mapY": "10",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Radisson Blu Hotel",
+            "stele": 4,
+            "foto": "./data/franceLyonHotel.jpg",
+            "link": "https://www.tripadvisor.com"
+          }
+        },
+        {
+          "denumire": "Paris",
+          "mapX": "9",
+          "mapY": "5",
+          "zileCazare": "4",
+          "hotel": {
+            "denumire": "La Tsuba Hotel",
+            "stele": 4,
+            "foto": "./data/franceParisHotel.jpg",
+            "link": "https://www.booking.com/hotel/fr/le-tsuba.ro.html"
+          }
+        },
+        {
+          "denumire": "Toulouse",
+          "mapX": "8",
+          "mapY": "14",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Crowne Plaza Toulouse",
+            "stele": 5,
+            "foto": "./data/franceToulouseHotel.jpg",
+            "link": "https://www.booking.com/hotel/fr/crowne-plaza-toulouse-toulouse.ro.html"
+          }
+        }
+      ],
+      "map": "./data/franceMap.jpg"
+    },
+    {
+      "id": 4,
+      "denumire": "Japonia",
+      "gridRows": "18",
+      "gridColumns": "18",
+      "mapX": "50",
+      "mapY": "7",
+      "fundal": "./data/japanWall.jpg",
+      "culoareTitlu": [
+        239,
+        135,
+        167
+      ],
+      "pret": "1100$",
+      "data": "12/03/2019",
+      "locuriDisponibile": 0,
+      "orase": [
+        {
+          "denumire": "Tokyo",
+          "mapX": "13",
+          "mapY": "10",
+          "zileCazare": 3,
+          "hotel": {
+            "denumire": "Sunroute Plaza Shinjuku",
+            "stele": 4,
+            "foto": "./data/japanTokyoHotel.jpg",
+            "link": "https://www.booking.com/hotel/jp/sunroute-plaza-shinjuku.ro.html"
+          }
+        },
+        {
+          "denumire": "Kyoto",
+          "mapX": "9",
+          "mapY": "10",
+          "zileCazare": 2,
+          "hotel": {
+            "denumire": "The Garnet Hotel",
+            "stele": 4,
+            "foto": "./data/japanKyotoHotel.jpg",
+            "link": "https://www.booking.com/hotel/jp/the-garnet-kyoto-station.ro.html"
+          }
+        },
+        {
+          "denumire": "Hiroshima",
+          "mapX": "6",
+          "mapY": "11",
+          "zileCazare": "2",
+          "hotel": {
+            "denumire": "Grand Prince Hotel",
+            "stele": 4,
+            "foto": "./data/japoniaHiroshimaHotel.jpg",
+            "link": "https://www.booking.com/hotel/jp/grand-prince-hiroshima.ro.html"
+          }
+        }
+      ],
+      "map": "./data/japanMap.jpg"
+    }
+  ],
+  "slide": [
+    {
+      "descriere": "Disneyland Paris",
+      "coloanaDescriere": "3 / 20",
+      "randDescriere": "2 / 4",
+      "textButon": "Oferte",
+      "coloanaButon": "3",
+      "randButon": "4",
+      "culoareText": [
+        255,
+        255,
+        255
+      ],
+      "destinatie": "Franța",
+      "imagineFundalSlide": "./data/DisneylandSlideshow.jpg",
+      "imagineFundalPagina": "./data/DisneylandSlideshowWall.jpg"
+    },
+    {
+      "descriere": "Vizitați Tanzania",
+      "coloanaDescriere": "3 / 20",
+      "randDescriere": "2 / 4",
+      "textButon": "Detalii",
+      "coloanaButon": "3",
+      "randButon": "4",
+      "culoareText": [
+        255,
+        255,
+        0
+      ],
+      "destinatie": "Tanzania",
+      "imagineFundalSlide": "./data/tanzaniaSlideshow.jpg",
+      "imagineFundalPagina": "./data/tanzaniaSlideshowWall.jpg"
+    },
+    {
+      "descriere": "Paradisul amazonian",
+      "coloanaDescriere": "3 / 20",
+      "randDescriere": "2 / 4",
+      "textButon": "Oferte",
+      "coloanaButon": "3",
+      "randButon": "4",
+      "culoareText": [
+        255,
+        255,
+        255
+      ],
+      "destinatie": "Brazilia",
+      "imagineFundalSlide": "./data/AmazoniaSlideshow.jpg",
+      "imagineFundalPagina": "./data/AmazoniaSlideshowWall.jpg"
+    }
+  ],
+  "login": [
+    {
+      "fundal": "./data/loginWall1.jpg"
+    },
+    {
+      "fundal": "./data/loginWall2.jpg"
+    },
+    {
+      "fundal": "./data/loginWall3.jpg"
+    },
+    {
+      "fundal": "./data/loginWall4.jpg"
+    }
+  ],
+  "destinatiiRezerva": []
+}
